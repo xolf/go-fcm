@@ -23,6 +23,7 @@ var (
 // notification payload.
 type Notification struct {
 	Title        string `json:"title,omitempty"`
+	Subtitle     string `json:"subtitle,omitempty"`
 	Body         string `json:"body,omitempty"`
 	ChannelID    string `json:"android_channel_id,omitempty"`
 	Icon         string `json:"icon,omitempty"`
